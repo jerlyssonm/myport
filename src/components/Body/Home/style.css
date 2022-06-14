@@ -1,0 +1,39 @@
+#home{
+    padding: 0 50px;
+    background-color: cadetblue;
+}
+.home-box{
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    overflow: hidden;
+    width: 100%;
+}
+.layout-home{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.describe{
+    width: 60%;
+    flex-direction: column;
+    text-align: start;
+}
+.img-home{
+    width: 40%;
+    position: relative;
+}
+.img-home img{
+    width: 100%;
+}
+@media screen and (max-width: 640px) {    
+    .img-home{
+        display: none;
+    }
+    .describe{
+        width: 100%;
+        text-align: center;
+    }
+    .home-box{
+        height: 50vh;
+    }
+}

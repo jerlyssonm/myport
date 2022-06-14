@@ -6,15 +6,15 @@ const Header = () => {
     return (
         <header>
             <nav className="navbar">
-                <a href="#" className="logo">Dev Jerlysson</a>
+                <a href="home" className="logo">Dev Jerlysson</a>
                 <input type="checkbox" id="toggler"/>
                 <label htmlFor="toggler"><GrMenu/></label>
                 <div className="menu">
                     <ul className="list">
-                        <li><a href="#">Quem Sou</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Conhecimentos</a></li>
+                        <li><a href="about">Quem Sou</a></li>
+                        <li><a href="project">Projetos</a></li>
+                        <li><a href="service">Serviços</a></li>
+                        <li><a href="skills">Conhecimentos</a></li>
                     </ul>
                 </div>
             </nav>
