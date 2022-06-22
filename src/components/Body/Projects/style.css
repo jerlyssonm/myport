@@ -4,22 +4,31 @@
 }
 .project-box{
     display: flex;
+    flex-flow: row;
+    justify-content: center;
     align-items: center;
-    height: 75vh;
-    overflow: hidden;
-    width: 100%;
-    gap: .3em;
+    height: 100vh;
 }
 .layout-project{
     max-width: 1140px;
     margin: 0 auto;
 }
 .img-project{
-    min-width: 100px;
-    max-width: 150px;
-    border: 1px solid black;
     height: 200px;
-    flex: 1;
+    background: tomato;
+    color: white;
+    padding: 30px;
+    min-width: 250px;
+    box-shadow: 12px 0 32px -12px black;
+    margin-left:  -130px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+.img-project:hover{
+    transform: translate(-16px) rotate(3deg);
+}
+.img-project:hover ~ .img-project{
+    transform: translate(130px);
 }
 @media screen and (max-width: 640px) {
     .project-box{

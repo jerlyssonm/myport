@@ -5,6 +5,7 @@ const Projects = () => {
     return (
         <section id="project">
             <div className="layout-project">
+                <h2>Projetos:</h2>
                 <div className="project-box">
                     <div className="img-project">1</div>
                     <div className="img-project">2</div>
