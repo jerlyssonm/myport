@@ -1,0 +1,28 @@
+#project{
+    padding: 0 50px;
+    background-color: cadetblue;
+}
+.project-box{
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    overflow: hidden;
+    width: 100%;
+    gap: .3em;
+}
+.layout-project{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.img-project{
+    min-width: 100px;
+    max-width: 150px;
+    border: 1px solid black;
+    height: 200px;
+    flex: 1;
+}
+@media screen and (max-width: 640px) {
+    .project-box{
+        height: 50vh;
+    }
+}

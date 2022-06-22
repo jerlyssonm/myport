@@ -1,0 +1,39 @@
+#about{
+    padding: 0 50px;
+    background-color: cadetblue;
+}
+.about-box{
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    overflow: hidden;
+    width: 100%;
+}
+.layout-about{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.describe-about{
+    width: 60%;
+    flex-direction: column;
+    text-align: start;
+}
+.img-about{
+    width: 40%;
+    position: relative;
+}
+.img-about img{
+    width: 100%;
+}
+@media screen and (max-width: 640px) {    
+    .img-about{
+        display: none;
+    }
+    .describe-about{
+        width: 100%;
+        text-align: center;
+    }
+    .about-box{
+        height: 50vh;
+    }
+}

@@ -1,4 +1,3 @@
-/* import { NavBox, Logo, LogoInput, LogoLabel, LogoList, Menu, ListMenu } from "./style" */
 import { GrMenu } from "react-icons/gr"
 import "./style.css"
 
@@ -13,8 +12,8 @@ const Header = () => {
                     <ul className="list">
                         <li><a href="about">Quem Sou</a></li>
                         <li><a href="project">Projetos</a></li>
-                        <li><a href="service">Serviços</a></li>
-                        <li><a href="skills">Conhecimentos</a></li>
+                        <li><a href="skill">Conhecimentos</a></li>
+                        <li><a href="contact">contato</a></li>
                     </ul>
                 </div>
             </nav>
